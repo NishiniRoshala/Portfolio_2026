@@ -50,7 +50,7 @@
     <div id="preloader" class="preloader">
         <div class="preloader-inner">
             <div class="loader-ring"></div>
-            <span class="loader-text font-space">NR</span>
+            <span class="loader-text font-space">N.</span>
         </div>
     </div>
 
@@ -156,6 +156,9 @@
                 <a href="https://www.linkedin.com/in/nishini-roshala-246aa8319" target="_blank" class="social-icon w-11 h-11 rounded-full border border-dark-500 flex items-center justify-center text-gray-400 hover:text-pink-500 hover:border-pink-500 transition-all duration-300">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
+                <a href="https://behance.net/nishiniroshala" target="_blank" class="social-icon w-11 h-11 rounded-full border border-dark-500 flex items-center justify-center text-gray-400 hover:text-pink-500 hover:border-pink-500 transition-all duration-300">
+                    <i class="fab fa-behance"></i>
+                </a>
             </div>
         </div>
 
@@ -169,47 +172,47 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-24 px-6 relative">
+    <section id="about" class="py-28 px-6 relative" style="background: radial-gradient(ellipse at 10% 40%, rgba(255, 15, 123, 0.07) 0%, transparent 50%), #090909;">
         <div class="max-w-7xl mx-auto">
-            <div class="section-header text-center mb-16">
-                <span class="text-pink-500 text-sm font-semibold tracking-widest uppercase">About Me</span>
+            <div class="section-header text-center mb-20">
+                <span class="text-[#ff0080] text-xs font-semibold tracking-[0.3em] uppercase block mb-4">About Me</span>
                 <h2 class="text-4xl sm:text-5xl font-bold font-space mt-3">Who I <span class="gradient-text">Am</span></h2>
             </div>
 
             <!-- Top Row: Image + Intro -->
-            <div class="grid lg:grid-cols-2 gap-16 items-center mb-16">
+            <div class="grid lg:grid-cols-[42%_1fr] gap-14 items-start mb-16">
                 <!-- Image Side -->
                 <div class="reveal reveal-left">
                     <div class="relative">
-                        <div class="about-image-wrapper relative z-10">
-                            <div class="about-image rounded-2xl overflow-hidden border border-dark-500 relative">
-                                <img src="assets/cv.jpg" 
-                                     alt="Nishini Roshala" 
-                                     class="w-full h-[500px] object-cover"
-                                     onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22700%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22700%22/><text fill=%22%23ff0080%22 font-family=%22Arial%22 font-size=%2248%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>NR</text></svg>'">
-                            </div>
-                        </div>
-                        <div class="absolute -bottom-6 -right-6 w-full h-full border-2 border-[#ff0080]/20 rounded-2xl"></div>
-                        <div class="absolute -top-4 -left-4 w-32 h-32 bg-[#ff0080]/10 rounded-full blur-3xl"></div>
-                        
-                        <!-- Stats Card -->
-                        <div class="absolute -bottom-4 -left-4 bg-dark-700 border border-dark-500 rounded-xl p-5 backdrop-blur-sm z-20">
-                            <div class="text-3xl font-bold font-space gradient-text counter-number">7+</div>
-                            <div class="text-sm text-gray-400">Projects Done</div>
+                        <!-- Background decoration -->
+                        <div class="absolute -inset-4 rounded-3xl bg-gradient-to-br from-[#ff0080]/8 via-transparent to-[#ff0080]/5 -z-10"></div>
+                        <div class="absolute -top-3 -left-3 w-24 h-24 border border-[#ff0080]/10 rounded-2xl -z-10"></div>
+                        <div class="absolute -bottom-3 -right-3 w-32 h-32 border border-[#ff0080]/8 rounded-2xl -z-10"></div>
+                        <div class="absolute top-1/2 -right-6 w-2 h-2 rounded-full bg-[#ff0080]/30"></div>
+                        <div class="absolute -bottom-4 left-8 w-1.5 h-1.5 rounded-full bg-[#ff0080]/20"></div>
+
+                        <div class="about-image rounded-2xl overflow-hidden border border-dark-500 shadow-[0_8px_40px_rgba(0,0,0,0.4)]">
+                            <img src="assets/cv.jpg" 
+                                 alt="Nishini Roshala - UI/UX Designer and Frontend Developer" 
+                                 class="w-full h-[420px] object-cover object-top"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22700%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22700%22/><text fill=%22%23ff0080%22 font-family=%22Arial%22 font-size=%2248%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>NR</text></svg>'">
                         </div>
                     </div>
                 </div>
 
                 <!-- Text Side -->
                 <div class="reveal reveal-right">
-                    <h3 class="text-2xl font-bold font-space mb-6">
-                        A passionate <span class="text-[#ff0080]">developer</span> & <span class="text-[#ff0080]">designer</span> from Sri Lanka
+                    <h3 class="text-[26px] font-bold font-space mb-7 leading-snug">
+                        A passionate <span class="text-[#ff0080]">UI/UX Designer</span> & <span class="text-[#ff0080]">Frontend Developer</span> from Sri Lanka
                     </h3>
-                    <p class="text-gray-400 leading-relaxed mb-8">
-                        I'm Nishini Roshala, a frontend developer, UI/UX designer, and mobile app developer 
-                        with a passion for creating beautiful, functional, and user-centered digital experiences. 
-                        I believe that design is about more than just making things look pretty – it's about 
-                        solving problems and creating intuitive, enjoyable experiences for users.
+                    <p class="text-gray-400 leading-[1.9] mb-5 text-[15px]">
+                        I am a passionate <strong class="text-white">UI/UX Designer</strong> dedicated to creating intuitive, user-centered digital experiences. With a strong foundation in <strong class="text-white">wireframing, prototyping</strong>, and interface design using <strong class="text-white">Figma</strong>, I enjoy transforming ideas into clean, functional, and visually engaging products.
+                    </p>
+                    <p class="text-gray-400 leading-[1.9] mb-5 text-[15px]">
+                        Through academic and personal projects, I have gained experience collaborating on <strong class="text-white">full-stack applications</strong> while maintaining a strong focus on <strong class="text-white">usability, accessibility</strong>, and design consistency.
+                    </p>
+                    <p class="text-gray-400 leading-[1.9] mb-8 text-[15px]">
+                        I am always eager to learn, grow, and design experiences that make a <strong class="text-white">positive impact</strong> on users worldwide.
                     </p>
 
                     <!-- Quick Info -->
@@ -219,16 +222,16 @@
                             <div class="text-sm text-gray-400">Name</div>
                             <div class="font-medium">Nishini Roshala</div>
                         </div>
-                        <div class="info-card p-4 rounded-xl bg-dark-700 border border-dark-500">
+                        <a href="mailto:nishini@gmail.com" class="info-card block p-4 rounded-xl bg-dark-700 border border-dark-500" aria-label="Send email to Nishini Roshala">
                             <i class="fas fa-envelope text-[#ff0080] mb-2"></i>
                             <div class="text-sm text-gray-400">Email</div>
-                            <div class="font-medium text-sm">nishini@email.com</div>
-                        </div>
-                        <div class="info-card p-4 rounded-xl bg-dark-700 border border-dark-500">
+                            <div class="font-medium text-sm">nishini@gmail.com</div>
+                        </a>
+                        <a href="https://maps.google.com/?q=Baduraliya,Sri+Lanka" target="_blank" rel="noopener" class="info-card block p-4 rounded-xl bg-dark-700 border border-dark-500" aria-label="Open Baduraliya, Sri Lanka in Google Maps">
                             <i class="fas fa-map-marker-alt text-[#ff0080] mb-2"></i>
                             <div class="text-sm text-gray-400">Location</div>
-                            <div class="font-medium">Sri Lanka</div>
-                        </div>
+                            <div class="font-medium">Baduraliya, Sri Lanka</div>
+                        </a>
                         <div class="info-card p-4 rounded-xl bg-dark-700 border border-dark-500">
                             <i class="fas fa-briefcase text-[#ff0080] mb-2"></i>
                             <div class="text-sm text-gray-400">Experience</div>
@@ -236,9 +239,34 @@
                         </div>
                     </div>
 
-                    <a href="#contact" class="btn-primary inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-white transition-all duration-300">
-                        <span>Download CV</span>
-                        <i class="fas fa-download"></i>
+                    <!-- Key Highlights - Badge Style -->
+                    <div class="mb-8">
+                        <h4 class="text-white font-semibold mb-4 text-sm tracking-wide uppercase">Key Highlights</h4>
+                        <div class="flex flex-wrap gap-2.5">
+                            <span class="highlight-badge inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#ff0080]/8 border border-[#ff0080]/15 text-sm font-medium text-gray-300 transition-all duration-300">
+                                <i class="fas fa-palette text-[#ff0080] text-xs"></i> UI/UX Design
+                            </span>
+                            <span class="highlight-badge inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#ff0080]/8 border border-[#ff0080]/15 text-sm font-medium text-gray-300 transition-all duration-300">
+                                <i class="fab fa-react text-[#ff0080] text-xs"></i> React
+                            </span>
+                            <span class="highlight-badge inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#ff0080]/8 border border-[#ff0080]/15 text-sm font-medium text-gray-300 transition-all duration-300">
+                                <i class="fab fa-figma text-[#ff0080] text-xs"></i> Figma
+                            </span>
+                            <span class="highlight-badge inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#ff0080]/8 border border-[#ff0080]/15 text-sm font-medium text-gray-300 transition-all duration-300">
+                                <i class="fas fa-server text-[#ff0080] text-xs"></i> Spring Boot
+                            </span>
+                            <span class="highlight-badge inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#ff0080]/8 border border-[#ff0080]/15 text-sm font-medium text-gray-300 transition-all duration-300">
+                                <i class="fas fa-mobile-alt text-[#ff0080] text-xs"></i> React Native
+                            </span>
+                            <span class="highlight-badge inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#ff0080]/8 border border-[#ff0080]/15 text-sm font-medium text-gray-300 transition-all duration-300">
+                                <i class="fas fa-layer-group text-[#ff0080] text-xs"></i> Responsive Design
+                            </span>
+                        </div>
+                    </div>
+
+                    <a href="assets/Nishini%20Roshala%20Resume%20(1).pdf" download="Nishini_Roshala_Resume.pdf" class="btn-primary inline-flex items-center gap-2.5 px-8 py-4 rounded-xl font-semibold text-white transition-all duration-300" aria-label="Download Nishini Roshala's resume as PDF">
+                        <span>Download Resume</span>
+                        <i class="fas fa-arrow-down animate-bounce-subtle"></i>
                     </a>
                 </div>
             </div>
@@ -252,7 +280,10 @@
                     </div>
                     <div class="text-3xl font-bold font-space gradient-text mb-1">1+</div>
                     <div class="text-white font-semibold mb-2">Years Experience</div>
-                    <p class="text-gray-500 text-sm leading-relaxed">Working with modern web technologies and building real-world projects.</p>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-3">Working with modern web technologies and building real-world projects.</p>
+                    <div class="w-full bg-dark-800 rounded-full h-1.5">
+                        <div class="bg-gradient-to-r from-[#ff0080] to-[#ff4da6] h-1.5 rounded-full" style="width: 25%"></div>
+                    </div>
                 </div>
 
                 <!-- Skills -->
@@ -262,7 +293,10 @@
                     </div>
                     <div class="text-3xl font-bold font-space gradient-text mb-1">10+</div>
                     <div class="text-white font-semibold mb-2">Skills Mastered</div>
-                    <p class="text-gray-500 text-sm leading-relaxed">HTML, CSS, JavaScript, React, Flutter, Figma, and many more tools.</p>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-3">HTML, CSS, JavaScript, React, Flutter, Figma, and many more tools.</p>
+                    <div class="w-full bg-dark-800 rounded-full h-1.5">
+                        <div class="bg-gradient-to-r from-[#ff0080] to-[#ff4da6] h-1.5 rounded-full" style="width: 80%"></div>
+                    </div>
                 </div>
 
                 <!-- Education -->
@@ -272,7 +306,10 @@
                     </div>
                     <div class="text-3xl font-bold font-space gradient-text mb-1">BSc</div>
                     <div class="text-white font-semibold mb-2">Software Engineering</div>
-                    <p class="text-gray-500 text-sm leading-relaxed">Currently pursuing my degree in Software Engineering at university.</p>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-3">BSc (Hons) Computer Science at IJSE. Feb 2024 - Present.</p>
+                    <div class="w-full bg-dark-800 rounded-full h-1.5">
+                        <div class="bg-gradient-to-r from-[#ff0080] to-[#ff4da6] h-1.5 rounded-full" style="width: 60%"></div>
+                    </div>
                 </div>
 
                 <!-- Goals -->
@@ -282,7 +319,10 @@
                     </div>
                     <div class="text-3xl font-bold font-space gradient-text mb-1">100%</div>
                     <div class="text-white font-semibold mb-2">Dedication</div>
-                    <p class="text-gray-500 text-sm leading-relaxed">Committed to delivering pixel-perfect, high-quality digital products.</p>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-3">Committed to delivering pixel-perfect, high-quality digital products.</p>
+                    <div class="w-full bg-dark-800 rounded-full h-1.5">
+                        <div class="bg-gradient-to-r from-[#ff0080] to-[#ff4da6] h-1.5 rounded-full" style="width: 100%"></div>
+                    </div>
                 </div>
             </div>
                 </div>
@@ -323,6 +363,8 @@
                         <span class="skill-badge"><i class="fab fa-bootstrap"></i> Bootstrap</span>
                         <span class="skill-badge"><i class="fab fa-js"></i> JavaScript</span>
                         <span class="skill-badge"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-badge"><i class="fas fa-mobile-alt"></i> React Native</span>
+                        <span class="skill-badge"><i class="fas fa-wind"></i> NativeWind</span>
                     </div>
                 </div>
 
@@ -339,7 +381,6 @@
                     </div>
                     <div class="flex flex-wrap gap-2.5">
                         <span class="skill-badge"><i class="fab fa-figma"></i> Figma</span>
-                        <span class="skill-badge"><i class="fas fa-laptop-code"></i> IntelliJ IDEA</span>
                     </div>
                 </div>
 
@@ -356,8 +397,13 @@
                     </div>
                     <div class="flex flex-wrap gap-2.5">
                         <span class="skill-badge"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-badge"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-badge"><i class="fab fa-js"></i> TypeScript</span>
                         <span class="skill-badge"><i class="fas fa-server"></i> Spring Boot</span>
+                        <span class="skill-badge"><i class="fab fa-node-js"></i> Node.js</span>
                         <span class="skill-badge"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="skill-badge"><i class="fas fa-leaf"></i> MongoDB</span>
+                        <span class="skill-badge"><i class="fas fa-fire"></i> Firebase</span>
                     </div>
                 </div>
 
@@ -376,6 +422,9 @@
                         <span class="skill-badge"><i class="fab fa-git-alt"></i> Git</span>
                         <span class="skill-badge"><i class="fab fa-github"></i> GitHub</span>
                         <span class="skill-badge"><i class="fas fa-code"></i> VS Code</span>
+                        <span class="skill-badge"><i class="fas fa-laptop-code"></i> IntelliJ IDEA</span>
+                        <span class="skill-badge"><i class="fas fa-paper-plane"></i> Postman</span>
+                        <span class="skill-badge"><i class="fab fa-ubuntu"></i> Ubuntu Linux</span>
                     </div>
                 </div>
 
@@ -390,11 +439,16 @@
                         <div class="marquee-item"><i class="fab fa-css3-alt"></i> CSS3</div>
                         <div class="marquee-item"><i class="fab fa-js"></i> JavaScript</div>
                         <div class="marquee-item"><i class="fab fa-react"></i> React</div>
+                        <div class="marquee-item"><i class="fas fa-mobile-alt"></i> React Native</div>
                         <div class="marquee-item"><i class="fab fa-bootstrap"></i> Bootstrap</div>
                         <div class="marquee-item"><i class="fab fa-figma"></i> Figma</div>
                         <div class="marquee-item"><i class="fab fa-java"></i> Java</div>
+                        <div class="marquee-item"><i class="fab fa-python"></i> Python</div>
                         <div class="marquee-item"><i class="fas fa-server"></i> Spring Boot</div>
+                        <div class="marquee-item"><i class="fab fa-node-js"></i> Node.js</div>
                         <div class="marquee-item"><i class="fas fa-database"></i> MySQL</div>
+                        <div class="marquee-item"><i class="fas fa-leaf"></i> MongoDB</div>
+                        <div class="marquee-item"><i class="fas fa-fire"></i> Firebase</div>
                         <div class="marquee-item"><i class="fab fa-git-alt"></i> Git</div>
                         <div class="marquee-item"><i class="fab fa-github"></i> GitHub</div>
                         <div class="marquee-item"><i class="fas fa-code"></i> VS Code</div>
@@ -403,11 +457,16 @@
                         <div class="marquee-item"><i class="fab fa-css3-alt"></i> CSS3</div>
                         <div class="marquee-item"><i class="fab fa-js"></i> JavaScript</div>
                         <div class="marquee-item"><i class="fab fa-react"></i> React</div>
+                        <div class="marquee-item"><i class="fas fa-mobile-alt"></i> React Native</div>
                         <div class="marquee-item"><i class="fab fa-bootstrap"></i> Bootstrap</div>
                         <div class="marquee-item"><i class="fab fa-figma"></i> Figma</div>
                         <div class="marquee-item"><i class="fab fa-java"></i> Java</div>
+                        <div class="marquee-item"><i class="fab fa-python"></i> Python</div>
                         <div class="marquee-item"><i class="fas fa-server"></i> Spring Boot</div>
+                        <div class="marquee-item"><i class="fab fa-node-js"></i> Node.js</div>
                         <div class="marquee-item"><i class="fas fa-database"></i> MySQL</div>
+                        <div class="marquee-item"><i class="fas fa-leaf"></i> MongoDB</div>
+                        <div class="marquee-item"><i class="fas fa-fire"></i> Firebase</div>
                         <div class="marquee-item"><i class="fab fa-git-alt"></i> Git</div>
                         <div class="marquee-item"><i class="fab fa-github"></i> GitHub</div>
                         <div class="marquee-item"><i class="fas fa-code"></i> VS Code</div>
@@ -428,35 +487,35 @@
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="stat-card text-center p-8 rounded-2xl bg-dark-700/60 border border-dark-500 backdrop-blur-sm reveal reveal-up group hover:border-[#ff0080]/40 transition-all duration-500">
                     <div class="w-16 h-16 rounded-2xl bg-[#ff0080]/10 flex items-center justify-center mx-auto mb-5 group-hover:bg-[#ff0080]/20 group-hover:scale-110 transition-all duration-300">
-                        <i class="fas fa-palette text-2xl text-[#ff0080]"></i>
+                        <i class="fas fa-project-diagram text-2xl text-[#ff0080]"></i>
                     </div>
-                    <div class="text-4xl lg:text-5xl font-bold font-space gradient-text mb-2 stat-counter" data-target="10">0</div>
-                    <div class="text-white font-semibold mb-1">UI Designs</div>
-                    <p class="text-gray-500 text-sm">Crafted with precision</p>
+                    <div class="text-4xl lg:text-5xl font-bold font-space gradient-text mb-2 stat-counter" data-target="9">0</div>
+                    <div class="text-white font-semibold mb-1">Projects Completed</div>
+                    <p class="text-gray-500 text-sm">Full-stack & UI/UX</p>
                 </div>
                 <div class="stat-card text-center p-8 rounded-2xl bg-dark-700/60 border border-dark-500 backdrop-blur-sm reveal reveal-up group hover:border-[#ff0080]/40 transition-all duration-500" style="animation-delay: 0.1s;">
                     <div class="w-16 h-16 rounded-2xl bg-[#ff0080]/10 flex items-center justify-center mx-auto mb-5 group-hover:bg-[#ff0080]/20 group-hover:scale-110 transition-all duration-300">
                         <i class="fab fa-figma text-2xl text-[#ff0080]"></i>
                     </div>
-                    <div class="text-4xl lg:text-5xl font-bold font-space gradient-text mb-2 stat-counter" data-target="15">0</div>
-                    <div class="text-white font-semibold mb-1">Figma Projects</div>
-                    <p class="text-gray-500 text-sm">Prototypes & wireframes</p>
+                    <div class="text-4xl lg:text-5xl font-bold font-space gradient-text mb-2 stat-counter" data-target="10">0</div>
+                    <div class="text-white font-semibold mb-1">UI/UX Designs</div>
+                    <p class="text-gray-500 text-sm">Wireframes & prototypes</p>
                 </div>
                 <div class="stat-card text-center p-8 rounded-2xl bg-dark-700/60 border border-dark-500 backdrop-blur-sm reveal reveal-up group hover:border-[#ff0080]/40 transition-all duration-500" style="animation-delay: 0.2s;">
                     <div class="w-16 h-16 rounded-2xl bg-[#ff0080]/10 flex items-center justify-center mx-auto mb-5 group-hover:bg-[#ff0080]/20 group-hover:scale-110 transition-all duration-300">
-                        <i class="fas fa-mobile-alt text-2xl text-[#ff0080]"></i>
+                        <i class="fas fa-users text-2xl text-[#ff0080]"></i>
                     </div>
-                    <div class="text-4xl lg:text-5xl font-bold font-space gradient-text mb-2">100<span class="text-2xl">%</span></div>
-                    <div class="text-white font-semibold mb-1">Responsive Designs</div>
-                    <p class="text-gray-500 text-sm">Mobile-first approach</p>
+                    <div class="text-4xl lg:text-5xl font-bold font-space gradient-text mb-2">1<span class="text-2xl">+</span></div>
+                    <div class="text-white font-semibold mb-1">Years Experience</div>
+                    <p class="text-gray-500 text-sm">UI/UX & Frontend</p>
                 </div>
                 <div class="stat-card text-center p-8 rounded-2xl bg-dark-700/60 border border-dark-500 backdrop-blur-sm reveal reveal-up group hover:border-[#ff0080]/40 transition-all duration-500" style="animation-delay: 0.3s;">
                     <div class="w-16 h-16 rounded-2xl bg-[#ff0080]/10 flex items-center justify-center mx-auto mb-5 group-hover:bg-[#ff0080]/20 group-hover:scale-110 transition-all duration-300">
-                        <i class="fas fa-graduation-cap text-2xl text-[#ff0080]"></i>
+                        <i class="fas fa-laptop-code text-2xl text-[#ff0080]"></i>
                     </div>
-                    <div class="text-4xl lg:text-5xl font-bold font-space gradient-text mb-2 stat-counter" data-target="2026">0</div>
-                    <div class="text-white font-semibold mb-1">Software Engineering Student</div>
-                    <p class="text-gray-500 text-sm">University of Sri Lanka</p>
+                    <div class="text-4xl lg:text-5xl font-bold font-space gradient-text mb-2 stat-counter" data-target="12">0</div>
+                    <div class="text-white font-semibold mb-1">Technical Skills</div>
+                    <p class="text-gray-500 text-sm">Languages & tools</p>
                 </div>
             </div>
         </div>
@@ -465,7 +524,7 @@
     <!-- Experience Timeline Section -->
     <section id="experience" class="py-24 px-6 relative bg-dark-800/50">
         <div class="max-w-7xl mx-auto">
-            <div class="section-header text-center mb-16 reveal">
+            <div class="section-header text-center mb-16">
                 <span class="text-[#ff0080] text-sm font-semibold tracking-widest uppercase">My Journey</span>
                 <h2 class="text-4xl sm:text-5xl font-bold font-space mt-3">Experience <span class="gradient-text">Timeline</span></h2>
             </div>
@@ -475,6 +534,55 @@
                 <div class="absolute left-1/2 -translate-x-1/2 w-[2px] h-full bg-gradient-to-b from-[#ff0080]/50 via-[#ff0080]/20 to-transparent hidden md:block"></div>
                 <!-- Mobile line -->
                 <div class="absolute left-6 w-[2px] h-full bg-gradient-to-b from-[#ff0080]/50 via-[#ff0080]/20 to-transparent md:hidden"></div>
+
+                <!-- 2018 -->
+                <div class="timeline-item relative flex items-center mb-16 reveal reveal-left">
+                    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-14 h-14 rounded-full bg-dark-800 border-2 border-[#ff0080] items-center justify-center z-10 shadow-[0_0_20px_rgba(255,0,128,0.3)]">
+                        <span class="text-xs font-bold font-space text-[#ff0080]">2018</span>
+                    </div>
+                    <div class="md:w-[calc(50%-3rem)] md:ml-0 ml-16">
+                        <div class="timeline-card p-6 rounded-2xl bg-dark-700 border border-dark-500 hover:border-[#ff0080]/40 transition-all duration-500 group relative overflow-hidden">
+                            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#ff0080] to-[#ff3399] transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-[#ff0080]/10 flex items-center justify-center">
+                                    <i class="fas fa-graduation-cap text-[#ff0080]"></i>
+                                </div>
+                                <span class="md:hidden text-sm font-bold font-space text-[#ff0080]">2018</span>
+                            </div>
+                            <h4 class="text-lg font-bold font-space mb-2">G.C.E. Ordinary Level</h4>
+                            <p class="text-gray-400 text-sm leading-relaxed">Passed O/L examination at Kamburawala National School. Started leadership journey as School Junior Prefect.</p>
+                            <div class="flex flex-wrap gap-2 mt-3">
+                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">School Life</span>
+                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Junior Prefect</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2021 -->
+                <div class="timeline-item relative flex items-center mb-16 justify-end reveal reveal-right">
+                    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-14 h-14 rounded-full bg-dark-800 border-2 border-[#ff0080] items-center justify-center z-10 shadow-[0_0_20px_rgba(255,0,128,0.3)]">
+                        <span class="text-xs font-bold font-space text-[#ff0080]">2021</span>
+                    </div>
+                    <div class="md:w-[calc(50%-3rem)] md:mr-0 ml-16">
+                        <div class="timeline-card p-6 rounded-2xl bg-dark-700 border border-dark-500 hover:border-[#ff0080]/40 transition-all duration-500 group relative overflow-hidden">
+                            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#ff0080] to-[#ff3399] transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-[#ff0080]/10 flex items-center justify-center">
+                                    <i class="fas fa-award text-[#ff0080]"></i>
+                                </div>
+                                <span class="md:hidden text-sm font-bold font-space text-[#ff0080]">2021</span>
+                            </div>
+                            <h4 class="text-lg font-bold font-space mb-2">G.C.E. Advanced Level</h4>
+                            <p class="text-gray-400 text-sm leading-relaxed">Completed A/L in Physical Science Stream. Served as Deputy Head Prefect, Western Band Leader, and House Leader.</p>
+                            <div class="flex flex-wrap gap-2 mt-3">
+                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Physical Science</span>
+                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Deputy Head Prefect</span>
+                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Band Leader</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- 2024 -->
                 <div class="timeline-item relative flex items-center mb-16 reveal reveal-left">
@@ -486,25 +594,25 @@
                             <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#ff0080] to-[#ff3399] transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                             <div class="flex items-center gap-3 mb-3">
                                 <div class="w-10 h-10 rounded-lg bg-[#ff0080]/10 flex items-center justify-center">
-                                    <i class="fas fa-book-open text-[#ff0080]"></i>
+                                    <i class="fas fa-university text-[#ff0080]"></i>
                                 </div>
                                 <span class="md:hidden text-sm font-bold font-space text-[#ff0080]">2024</span>
                             </div>
-                            <h4 class="text-lg font-bold font-space mb-2">Learning UI/UX Design</h4>
-                            <p class="text-gray-400 text-sm leading-relaxed">Started my journey into the world of UI/UX design. Learned Figma, design principles, color theory, and user research fundamentals.</p>
+                            <h4 class="text-lg font-bold font-space mb-2">University - BSc Software Engineering</h4>
+                            <p class="text-gray-400 text-sm leading-relaxed">Started BSc (Hons) Computer Science in Software Engineering at Institute of Software Engineering (IJSE). Core Member of Student Committee.</p>
                             <div class="flex flex-wrap gap-2 mt-3">
-                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Figma</span>
-                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Design Basics</span>
-                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">User Research</span>
+                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">IJSE</span>
+                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Student Committee</span>
+                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">UI/UX Design</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 2025 -->
+                <!-- 2026 -->
                 <div class="timeline-item relative flex items-center mb-16 justify-end reveal reveal-right">
                     <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-14 h-14 rounded-full bg-dark-800 border-2 border-[#ff0080] items-center justify-center z-10 shadow-[0_0_20px_rgba(255,0,128,0.3)]">
-                        <span class="text-xs font-bold font-space text-[#ff0080]">2025</span>
+                        <span class="text-xs font-bold font-space text-[#ff0080]">2026</span>
                     </div>
                     <div class="md:w-[calc(50%-3rem)] md:mr-0 ml-16">
                         <div class="timeline-card p-6 rounded-2xl bg-dark-700 border border-dark-500 hover:border-[#ff0080]/40 transition-all duration-500 group relative overflow-hidden">
@@ -513,46 +621,21 @@
                                 <div class="w-10 h-10 rounded-lg bg-[#ff0080]/10 flex items-center justify-center">
                                     <i class="fas fa-briefcase text-[#ff0080]"></i>
                                 </div>
-                                <span class="md:hidden text-sm font-bold font-space text-[#ff0080]">2025</span>
-                            </div>
-                            <h4 class="text-lg font-bold font-space mb-2">Internship & Real Projects</h4>
-                            <p class="text-gray-400 text-sm leading-relaxed">Gained hands-on experience through internships. Built real-world mobile apps and web applications using React, Flutter, and Spring Boot.</p>
-                            <div class="flex flex-wrap gap-2 mt-3">
-                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">React</span>
-                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Flutter</span>
-                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Spring Boot</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 2026 -->
-                <div class="timeline-item relative flex items-center mb-16 reveal reveal-left">
-                    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-14 h-14 rounded-full bg-dark-800 border-2 border-[#ff0080] items-center justify-center z-10 shadow-[0_0_20px_rgba(255,0,128,0.3)]">
-                        <span class="text-xs font-bold font-space text-[#ff0080]">2026</span>
-                    </div>
-                    <div class="md:w-[calc(50%-3rem)] md:ml-0 ml-16">
-                        <div class="timeline-card p-6 rounded-2xl bg-dark-700 border border-dark-500 hover:border-[#ff0080]/40 transition-all duration-500 group relative overflow-hidden">
-                            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#ff0080] to-[#ff3399] transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
-                            <div class="flex items-center gap-3 mb-3">
-                                <div class="w-10 h-10 rounded-lg bg-[#ff0080]/10 flex items-center justify-center">
-                                    <i class="fas fa-laptop-code text-[#ff0080]"></i>
-                                </div>
                                 <span class="md:hidden text-sm font-bold font-space text-[#ff0080]">2026</span>
                             </div>
-                            <h4 class="text-lg font-bold font-space mb-2">Portfolio & Advanced Projects</h4>
-                            <p class="text-gray-400 text-sm leading-relaxed">Building a stunning portfolio showcasing my best work. Developing advanced projects in full-stack development and UI/UX design.</p>
+                            <h4 class="text-lg font-bold font-space mb-2">UI/UX Designer Intern</h4>
+                            <p class="text-gray-400 text-sm leading-relaxed">Currently doing my UI/UX Designer Internship. Building real-world projects including GlowUp Salon and Complaint Management System.</p>
                             <div class="flex flex-wrap gap-2 mt-3">
-                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Portfolio</span>
+                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Spring Boot</span>
+                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Figma</span>
                                 <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Full Stack</span>
-                                <span class="px-2 py-1 rounded-md bg-[#ff0080]/10 text-[#ff0080] text-xs font-medium">Advanced UI</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Future -->
-                <div class="timeline-item relative flex items-center justify-end reveal reveal-right">
+                <div class="timeline-item relative flex items-center justify-end reveal reveal-left">
                     <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-14 h-14 rounded-full bg-gradient-to-br from-[#ff0080] to-[#ff3399] items-center justify-center z-10 shadow-[0_0_30px_rgba(255,0,128,0.5)]">
                         <i class="fas fa-star text-white text-sm"></i>
                     </div>
@@ -593,42 +676,38 @@
             </div>
 
             <!-- Filter Buttons -->
-            <div class="flex flex-wrap justify-center gap-3 mb-12 reveal">
-                <button class="filter-btn active px-5 py-2 rounded-xl text-sm font-medium transition-all duration-300" data-filter="all">All</button>
-                <button class="filter-btn px-5 py-2 rounded-xl text-sm font-medium transition-all duration-300" data-filter="web">Web Design</button>
-                <button class="filter-btn px-5 py-2 rounded-xl text-sm font-medium transition-all duration-300" data-filter="mobile">Mobile App</button>
-                <button class="filter-btn px-5 py-2 rounded-xl text-sm font-medium transition-all duration-300" data-filter="ui">UI/UX</button>
+            <div class="flex flex-wrap justify-center gap-4 mb-12 reveal">
+                <button class="filter-btn active px-6 py-2 rounded-full border border-dark-500 text-sm font-medium transition-all duration-300" data-filter="all">All Projects</button>
+                <button class="filter-btn px-6 py-2 rounded-full border border-dark-500 text-sm font-medium transition-all duration-300" data-filter="web">Web Apps</button>
+                <button class="filter-btn px-6 py-2 rounded-full border border-dark-500 text-sm font-medium transition-all duration-300" data-filter="mobile">Mobile</button>
+                <button class="filter-btn px-6 py-2 rounded-full border border-dark-500 text-sm font-medium transition-all duration-300" data-filter="ui">UI Design</button>
+                <button class="filter-btn px-6 py-2 rounded-full border border-dark-500 text-sm font-medium transition-all duration-300" data-filter="micro">Microservice</button>
             </div>
 
             <!-- Projects Grid -->
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-grid">
                 
-                <!-- Project 1 -->
+                <!-- Project 1: Nihal Fresh Fruits -->
                 <div class="project-card reveal reveal-up group" data-category="web">
                     <div class="relative rounded-2xl overflow-hidden bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-500">
                         <div class="project-image h-56 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" 
-                                 alt="E-Commerce Platform" 
+                            <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=600&h=400&fit=crop" 
+                                 alt="Nihal Fresh Fruits" 
                                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ec4899%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>E-Commerce</text></svg>'">
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ff0080%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Nihal Fresh Fruits</text></svg>'">
                         </div>
                         <div class="project-overlay absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-6">
                             <div>
                                 <div class="flex gap-2 mb-3">
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">React</span>
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Node.js</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">HTML</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">CSS</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">JavaScript</span>
                                 </div>
-                                <h4 class="text-xl font-bold font-space mb-2">E-Commerce Platform</h4>
-                                <p class="text-gray-400 text-sm mb-4">A full-stack e-commerce solution with payment integration and admin dashboard.</p>
+                                <h4 class="text-xl font-bold font-space mb-2">Nihal Fresh Fruits</h4>
+                                <p class="text-gray-400 text-sm mb-4">CRUD-based fruit management system — my very first project.</p>
                                 <div class="flex flex-wrap gap-2">
-                                    <a href="#" class="project-btn-primary px-4 py-2 rounded-lg text-xs font-semibold text-white flex items-center gap-1.5">
-                                        <i class="fas fa-external-link-alt"></i> Live Demo
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
+                                    <a href="https://github.com/NishiniRoshala/NihalFreshFruitsFinal" target="_blank" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
                                         <i class="fab fa-github"></i> GitHub
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fas fa-file-alt"></i> Case Study
                                     </a>
                                 </div>
                             </div>
@@ -636,98 +715,76 @@
                     </div>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="project-card reveal reveal-up group" data-category="mobile">
-                    <div class="relative rounded-2xl overflow-hidden bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-500">
-                        <div class="project-image h-56 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop" 
-                                 alt="Fitness Tracker App" 
-                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ec4899%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Fitness App</text></svg>'">
-                        </div>
-                        <div class="project-overlay absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-6">
-                            <div>
-                                <div class="flex gap-2 mb-3">
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Flutter</span>
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Firebase</span>
-                                </div>
-                                <h4 class="text-xl font-bold font-space mb-2">Fitness Tracker App</h4>
-                                <p class="text-gray-400 text-sm mb-4">Cross-platform fitness tracking app with workout plans and progress analytics.</p>
-                                <div class="flex flex-wrap gap-2">
-                                    <a href="#" class="project-btn-primary px-4 py-2 rounded-lg text-xs font-semibold text-white flex items-center gap-1.5">
-                                        <i class="fas fa-external-link-alt"></i> Live Demo
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fab fa-github"></i> GitHub
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fas fa-file-alt"></i> Case Study
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
+                <!-- Project 2: Tik Tak Toy Game -->
                 <div class="project-card reveal reveal-up group" data-category="ui">
                     <div class="relative rounded-2xl overflow-hidden bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-500">
                         <div class="project-image h-56 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop" 
-                                 alt="Banking App UI" 
+                            <img src="https://images.unsplash.com/photo-1773101883545-a7330245c3f1?w=600&h=400&fit=crop" 
+                                 alt="Tik Tak Toy Game" 
                                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ec4899%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Banking UI</text></svg>'">
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ff0080%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Tik Tak Toy</text></svg>'">
                         </div>
                         <div class="project-overlay absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-6">
                             <div>
                                 <div class="flex gap-2 mb-3">
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Figma</span>
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Prototyping</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">HTML</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">CSS</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">JavaScript</span>
                                 </div>
-                                <h4 class="text-xl font-bold font-space mb-2">Banking App UI</h4>
-                                <p class="text-gray-400 text-sm mb-4">Modern banking application design with seamless user experience and dark mode.</p>
-                                <div class="flex flex-wrap gap-2">
-                                    <a href="#" class="project-btn-primary px-4 py-2 rounded-lg text-xs font-semibold text-white flex items-center gap-1.5">
-                                        <i class="fas fa-external-link-alt"></i> Live Demo
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fab fa-github"></i> GitHub
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fas fa-file-alt"></i> Case Study
-                                    </a>
-                                </div>
+                                <h4 class="text-xl font-bold font-space mb-2">Tik Tak Toy Game</h4>
+                                <p class="text-gray-400 text-sm mb-4">Interactive Tic Tac Toe game with smooth UI and responsive gameplay.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 4 -->
+                <!-- Project 3: Flora Grace POS -->
+                <div class="project-card reveal reveal-up group" data-category="ui">
+                    <div class="relative rounded-2xl overflow-hidden bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-500">
+                        <div class="project-image h-56 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1740078941060-1d1f601277fb?w=600&h=400&fit=crop" 
+                                 alt="Flora Grace POS System" 
+                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ff0080%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Flora Grace POS</text></svg>'">
+                        </div>
+                        <div class="project-overlay absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-6">
+                            <div>
+                                <div class="flex gap-2 mb-3">
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">HTML</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">CSS</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">JavaScript</span>
+                                </div>
+                                <h4 class="text-xl font-bold font-space mb-2">Flora Grace POS System</h4>
+                                <p class="text-gray-400 text-sm mb-4">Single Page POS app with user flows, layout consistency, and responsive UI principles.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: GlowUp Salon -->
                 <div class="project-card reveal reveal-up group" data-category="web">
                     <div class="relative rounded-2xl overflow-hidden bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-500">
                         <div class="project-image h-56 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" 
-                                 alt="Analytics Dashboard" 
+                            <img src="https://i.pinimg.com/736x/58/24/2b/58242b15521b4888c5782a9329a24913.jpg" 
+                                 alt="GlowUp Salon Management System" 
                                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ec4899%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Dashboard</text></svg>'">
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ff0080%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>GlowUp Salon</text></svg>'">
                         </div>
                         <div class="project-overlay absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-6">
                             <div>
                                 <div class="flex gap-2 mb-3">
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Vue.js</span>
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">D3.js</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Spring Boot</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">MySQL</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Bootstrap</span>
                                 </div>
-                                <h4 class="text-xl font-bold font-space mb-2">Analytics Dashboard</h4>
-                                <p class="text-gray-400 text-sm mb-4">Interactive data visualization dashboard with real-time updates and charts.</p>
+                                <h4 class="text-xl font-bold font-space mb-2">GlowUp Salon Management</h4>
+                                <p class="text-gray-400 text-sm mb-4">Full-stack salon system with secure JWT auth, admin dashboards, and inventory management.</p>
                                 <div class="flex flex-wrap gap-2">
-                                    <a href="#" class="project-btn-primary px-4 py-2 rounded-lg text-xs font-semibold text-white flex items-center gap-1.5">
-                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    <a href="https://youtu.be/PaVr4FZ2SF0" target="_blank" class="project-btn-primary px-4 py-2 rounded-lg text-xs font-semibold text-white flex items-center gap-1.5">
+                                        <i class="fas fa-external-link-alt"></i> Demo
                                     </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
+                                    <a href="https://github.com/NishiniRoshala/AAD_Final_Project_GlowUp_Salon.git" target="_blank" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
                                         <i class="fab fa-github"></i> GitHub
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fas fa-file-alt"></i> Case Study
                                     </a>
                                 </div>
                             </div>
@@ -735,100 +792,124 @@
                     </div>
                 </div>
 
-                <!-- Project 5 -->
+                <!-- Project 5: Complaint Management -->
+                <div class="project-card reveal reveal-up group" data-category="web">
+                    <div class="relative rounded-2xl overflow-hidden bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-500">
+                        <div class="project-image h-56 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop" 
+                                 alt="Complaint Management System" 
+                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ff0080%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Complaint System</text></svg>'">
+                        </div>
+                        <div class="project-overlay absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-6">
+                            <div>
+                                <div class="flex gap-2 mb-3">
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Jakarta EE</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">JSP</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">MySQL</span>
+                                </div>
+                                <h4 class="text-xl font-bold font-space mb-2">Complaint Management System</h4>
+                                <p class="text-gray-400 text-sm mb-4">MVC architecture complaint lifecycle system with form-based interactions and clean separation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Wanderlust Travel SPA -->
+                <div class="project-card reveal reveal-up group" data-category="web">
+                    <div class="relative rounded-2xl overflow-hidden bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-500">
+                        <div class="project-image h-56 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop" 
+                                 alt="Wanderlust Travel SPA" 
+                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ff0080%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Wanderlust Travel</text></svg>'">
+                        </div>
+                        <div class="project-overlay absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-6">
+                            <div>
+                                <div class="flex gap-2 mb-3">
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">HTML</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Tailwind</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">JavaScript</span>
+                                </div>
+                                <h4 class="text-xl font-bold font-space mb-2">Wanderlust Travel SPA</h4>
+                                <p class="text-gray-400 text-sm mb-4">Modern travel & spa single page application built with HTML, CSS, Tailwind, and JavaScript.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <a href="https://github.com/NishiniRoshala/wanderlust-travel-spa" target="_blank" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
+                                        <i class="fab fa-github"></i> GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7: Greenhouse Management (AGMS) -->
+                <div class="project-card reveal reveal-up group" data-category="micro">
+                    <div class="relative rounded-2xl overflow-hidden bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-500">
+                        <div class="project-image h-56 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=600&h=400&fit=crop" 
+                                 alt="Greenhouse Management System" 
+                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ff0080%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>AGMS</text></svg>'">
+                        </div>
+                        <div class="project-overlay absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-6">
+                            <div>
+                                <div class="flex gap-2 mb-3">
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Microservices</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Spring Boot</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">IoT</span>
+                                </div>
+                                <h4 class="text-xl font-bold font-space mb-2">Greenhouse Management (AGMS)</h4>
+                                <p class="text-gray-400 text-sm mb-4">Microservice-based automated greenhouse management system for IoT-driven agriculture.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <a href="https://github.com/NishiniRoshala/Automated-Greenhouse-Management-System-AGMS-Microservice-Based-Application" target="_blank" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
+                                        <i class="fab fa-github"></i> GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8: Recipe App (AMD) -->
                 <div class="project-card reveal reveal-up group" data-category="mobile">
                     <div class="relative rounded-2xl overflow-hidden bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-500">
                         <div class="project-image h-56 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop" 
-                                 alt="Food Delivery App" 
+                            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop" 
+                                 alt="Recipe App" 
                                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ec4899%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Food App</text></svg>'">
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ff0080%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Recipe App</text></svg>'">
                         </div>
                         <div class="project-overlay absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-6">
                             <div>
                                 <div class="flex gap-2 mb-3">
                                     <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">React Native</span>
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">MongoDB</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Mobile</span>
                                 </div>
-                                <h4 class="text-xl font-bold font-space mb-2">Food Delivery App</h4>
-                                <p class="text-gray-400 text-sm mb-4">Feature-rich food delivery application with real-time tracking and payments.</p>
-                                <div class="flex flex-wrap gap-2">
-                                    <a href="#" class="project-btn-primary px-4 py-2 rounded-lg text-xs font-semibold text-white flex items-center gap-1.5">
-                                        <i class="fas fa-external-link-alt"></i> Live Demo
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fab fa-github"></i> GitHub
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fas fa-file-alt"></i> Case Study
-                                    </a>
-                                </div>
+                                <h4 class="text-xl font-bold font-space mb-2">Recipe App</h4>
+                                <p class="text-gray-400 text-sm mb-4">AMD final project — a mobile recipe application for discovering and saving recipes.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 6 -->
-                <div class="project-card reveal reveal-up group" data-category="ui">
-                    <div class="relative rounded-2xl overflow-hidden bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-500">
-                        <div class="project-image h-56 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=600&h=400&fit=crop" 
-                                 alt="Social Media Redesign" 
-                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ec4899%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Social UI</text></svg>'">
-                        </div>
-                        <div class="project-overlay absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-6">
-                            <div>
-                                <div class="flex gap-2 mb-3">
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Figma</span>
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">User Research</span>
-                                </div>
-                                <h4 class="text-xl font-bold font-space mb-2">Social Media Redesign</h4>
-                                <p class="text-gray-400 text-sm mb-4">Complete UI/UX overhaul for a social media platform improving engagement by 40%.</p>
-                                <div class="flex flex-wrap gap-2">
-                                    <a href="#" class="project-btn-primary px-4 py-2 rounded-lg text-xs font-semibold text-white flex items-center gap-1.5">
-                                        <i class="fas fa-external-link-alt"></i> Live Demo
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fab fa-github"></i> GitHub
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fas fa-file-alt"></i> Case Study
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 7 -->
+                <!-- Project 9: Restaurant Reservation System (RAD) -->
                 <div class="project-card reveal reveal-up group" data-category="web">
                     <div class="relative rounded-2xl overflow-hidden bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-500">
                         <div class="project-image h-56 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop" 
-                                 alt="Portfolio Website" 
+                            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop" 
+                                 alt="Restaurant Reservation System" 
                                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ec4899%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Portfolio</text></svg>'">
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22><rect fill=%22%231a1a1a%22 width=%22600%22 height=%22400%22/><text fill=%22%23ff0080%22 font-family=%22Arial%22 font-size=%2224%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>Reservation System</text></svg>'">
                         </div>
                         <div class="project-overlay absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end p-6">
                             <div>
                                 <div class="flex gap-2 mb-3">
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Next.js</span>
-                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Tailwind</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">Web App</span>
+                                    <span class="px-3 py-1 rounded-lg bg-pink-500/20 text-pink-400 text-xs font-medium">RAD</span>
                                 </div>
-                                <h4 class="text-xl font-bold font-space mb-2">Creative Portfolio</h4>
-                                <p class="text-gray-400 text-sm mb-4">A stunning portfolio website with smooth animations and unique interactions.</p>
-                                <div class="flex flex-wrap gap-2">
-                                    <a href="#" class="project-btn-primary px-4 py-2 rounded-lg text-xs font-semibold text-white flex items-center gap-1.5">
-                                        <i class="fas fa-external-link-alt"></i> Live Demo
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fab fa-github"></i> GitHub
-                                    </a>
-                                    <a href="#" class="project-btn-secondary px-4 py-2 rounded-lg text-xs font-semibold text-gray-300 flex items-center gap-1.5">
-                                        <i class="fas fa-file-alt"></i> Case Study
-                                    </a>
-                                </div>
+                                <h4 class="text-xl font-bold font-space mb-2">Restaurant Reservation System</h4>
+                                <p class="text-gray-400 text-sm mb-4">RAD final project — a restaurant table booking and reservation management system.</p>
                             </div>
                         </div>
                     </div>
@@ -856,26 +937,10 @@
                 <div class="lg:col-span-2 space-y-6 reveal reveal-left">
                     <div class="contact-card p-6 rounded-2xl bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-300">
                         <div class="w-12 h-12 rounded-xl bg-pink-500/10 flex items-center justify-center mb-4">
-                            <i class="fas fa-envelope text-pink-500"></i>
-                        </div>
-                        <h4 class="font-semibold mb-1">Email</h4>
-                        <p class="text-gray-400 text-sm">nishini@email.com</p>
-                    </div>
-
-                    <div class="contact-card p-6 rounded-2xl bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-300">
-                        <div class="w-12 h-12 rounded-xl bg-pink-500/10 flex items-center justify-center mb-4">
-                            <i class="fas fa-phone text-pink-500"></i>
-                        </div>
-                        <h4 class="font-semibold mb-1">Phone</h4>
-                        <p class="text-gray-400 text-sm">+94 7X XXX XXXX</p>
-                    </div>
-
-                    <div class="contact-card p-6 rounded-2xl bg-dark-700 border border-dark-500 hover:border-pink-500/50 transition-all duration-300">
-                        <div class="w-12 h-12 rounded-xl bg-pink-500/10 flex items-center justify-center mb-4">
                             <i class="fas fa-map-marker-alt text-pink-500"></i>
                         </div>
                         <h4 class="font-semibold mb-1">Location</h4>
-                        <p class="text-gray-400 text-sm">Sri Lanka</p>
+                        <p class="text-gray-400 text-sm">Baduraliya, Sri Lanka</p>
                     </div>
 
                     <!-- Social Links -->
@@ -892,6 +957,9 @@
                         <a href="https://www.instagram.com/nishu_girl.__x.x/" target="_blank" class="contact-social-icon w-14 h-14 rounded-2xl bg-dark-700 border border-dark-500 flex items-center justify-center text-gray-400 hover:text-white hover:border-[#ff0080] transition-all duration-300 group">
                             <i class="fab fa-instagram text-lg group-hover:drop-shadow-[0_0_8px_rgba(255,0,128,0.5)]"></i>
                         </a>
+                        <a href="https://behance.net/nishiniroshala" target="_blank" class="contact-social-icon w-14 h-14 rounded-2xl bg-dark-700 border border-dark-500 flex items-center justify-center text-gray-400 hover:text-white hover:border-[#ff0080] transition-all duration-300 group">
+                            <i class="fab fa-behance text-lg group-hover:drop-shadow-[0_0_8px_rgba(255,0,128,0.5)]"></i>
+                        </a>
                     </div>
                 </div>
 
@@ -901,11 +969,11 @@
                         <div class="grid sm:grid-cols-2 gap-6">
                             <div>
                                 <label class="block text-sm font-medium mb-2">Your Name</label>
-                                <input type="text" placeholder="John Doe" class="w-full px-4 py-3 rounded-xl bg-dark-600 border border-dark-500 text-white placeholder-gray-500 focus:border-pink-500 focus:outline-none transition-colors">
+                                <input type="text" placeholder="Your Name" class="w-full px-4 py-3 rounded-xl bg-dark-600 border border-dark-500 text-white placeholder-gray-500 focus:border-pink-500 focus:outline-none transition-colors">
                             </div>
                             <div>
                                 <label class="block text-sm font-medium mb-2">Your Email</label>
-                                <input type="email" placeholder="john@email.com" class="w-full px-4 py-3 rounded-xl bg-dark-600 border border-dark-500 text-white placeholder-gray-500 focus:border-pink-500 focus:outline-none transition-colors">
+                                <input type="email" placeholder="your@email.com" class="w-full px-4 py-3 rounded-xl bg-dark-600 border border-dark-500 text-white placeholder-gray-500 focus:border-pink-500 focus:outline-none transition-colors">
                             </div>
                         </div>
                         <div>
@@ -959,6 +1027,9 @@
                     <a href="https://www.linkedin.com/in/nishini-roshala-246aa8319" target="_blank" class="w-10 h-10 rounded-full bg-dark-700 border border-dark-500 flex items-center justify-center text-gray-400 hover:text-[#ff0080] hover:border-[#ff0080] hover:shadow-[0_0_15px_rgba(255,0,128,0.2)] transition-all duration-300">
                         <i class="fab fa-linkedin-in text-sm"></i>
                     </a>
+                    <a href="https://behance.net/nishiniroshala" target="_blank" class="w-10 h-10 rounded-full bg-dark-700 border border-dark-500 flex items-center justify-center text-gray-400 hover:text-[#ff0080] hover:border-[#ff0080] hover:shadow-[0_0_15px_rgba(255,0,128,0.2)] transition-all duration-300">
+                        <i class="fab fa-behance text-sm"></i>
+                    </a>
                 </div>
             </div>
 
@@ -968,7 +1039,10 @@
             <!-- Centered Footer Text -->
             <div class="text-center space-y-3">
                 <p class="text-gray-400 text-sm">
-                    Crafted with <span class="text-[#ff0080] font-semibold">&#10084;</span> by <span class="text-white font-semibold">Nishini Roshala</span>
+                    Crafted with <span class="text-[#ff0080] font-semibold">&#10084;</span> by <span class="text-white font-semibold">Nishini</span>
+                </p>
+                <p class="text-gray-500 text-xs">
+                    <a href="mailto:nishini@gmail.com" class="hover:text-[#ff0080] transition-colors duration-300">nishini@gmail.com</a>
                 </p>
                 <p class="text-gray-500 text-xs tracking-wider">
                     Designing Interfaces. Shaping Experiences.

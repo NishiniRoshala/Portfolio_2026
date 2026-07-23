@@ -755,21 +755,56 @@ body {
     transform: scale(1.02);
 }
 
+/* Info Cards - Premium Hover */
 .info-card {
-    transition: all 0.35s ease;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     background: linear-gradient(160deg, rgba(255, 0, 128, 0.03), rgba(10, 10, 10, 0.95));
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .info-card:hover {
-    border-color: rgba(255, 0, 128, 0.5);
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 0, 128, 0.06);
+    border-color: rgba(255, 0, 128, 0.6);
+    transform: translateY(-5px);
+    box-shadow: 
+        0 10px 30px rgba(0, 0, 0, 0.35),
+        0 0 25px rgba(255, 0, 128, 0.1),
+        inset 0 1px 0 rgba(255, 0, 128, 0.1);
 }
 
 .info-card i {
     display: block;
     font-size: 18px;
     filter: drop-shadow(0 0 4px rgba(255, 0, 128, 0.3));
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.info-card:hover i {
+    transform: rotate(12deg) scale(1.15);
+    filter: drop-shadow(0 0 8px rgba(255, 0, 128, 0.5));
+}
+
+/* Highlight Badges */
+.highlight-badge {
+    background: linear-gradient(135deg, rgba(255, 0, 128, 0.06), rgba(10, 10, 10, 0.8));
+    backdrop-filter: blur(8px);
+}
+
+.highlight-badge:hover {
+    background: linear-gradient(135deg, rgba(255, 0, 128, 0.15), rgba(10, 10, 10, 0.9));
+    border-color: rgba(255, 0, 128, 0.4);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 0, 128, 0.15);
+}
+
+/* Download Button Bounce Arrow */
+@keyframes bounceSubtle {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(3px); }
+}
+
+.animate-bounce-subtle {
+    animation: bounceSubtle 1.5s ease-in-out infinite;
 }
 
 /* About Feature Cards */
@@ -927,6 +962,21 @@ body {
 }
 
 /* === Projects Section === */
+.featured-card {
+    box-shadow: 0 0 0 rgba(255, 0, 128, 0);
+    transition: all 0.5s ease;
+}
+.featured-card:hover {
+    box-shadow: 0 20px 60px rgba(255, 0, 128, 0.15);
+    transform: translateY(-8px);
+}
+.featured-card .project-image img {
+    transition: transform 0.7s ease;
+}
+.featured-card:hover .project-image img {
+    transform: scale(1.1);
+}
+
 .filter-btn {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);

@@ -300,7 +300,7 @@ class TypeWriter {
 // Initialize typing effect
 const typingElement = document.querySelector('.typing-text');
 if (typingElement) {
-    new TypeWriter(typingElement, ['Frontend Developer', 'UI/UX Designer', 'Software Engineering Student', 'Mobile App Developer'], 2200);
+    new TypeWriter(typingElement, ['UI/UX Designer', 'Frontend Developer', 'Software Engineering Undergraduate', 'Mobile App Developer'], 2200);
 }
 
 // === Floating Particles ===
